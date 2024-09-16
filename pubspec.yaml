@@ -1,0 +1,50 @@
+name: smart_truck_elektronik
+description: "A Flutter project to managament smart truck elektronik company system."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http:  
+  dio: ^5.0.0
+  shared_preferences: ^2.0.15
+  image_picker: ^1.1.2
+  intl:
+  # Other runtime dependencies (if any)
+  # Example:
+  # http: ^0.13.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
+  flutter_native_splash: 
+
+flutter_native_splash:
+  image: lib/assets/img/logo-n-1.png
+  color: "#E3F2FD"
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "lib/assets/img/lg.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+  # flutter_launcher_icons: ^0.13.1
+
+# flutter_icons:
+#   android: true
+#   ios: true
+#   image_path: "lib/assets/img/logo-n.png"
+
+flutter:
+  uses-material-design: true
+
+  # Any other asset configurations
+  assets:
+    - lib/assets/img/
